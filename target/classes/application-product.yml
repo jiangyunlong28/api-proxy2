@@ -1,0 +1,25 @@
+# Server Port
+server:
+  port: 8088
+  compression:
+    enabled: true
+    min-response-size: 2048
+    mime-types:
+      - image/png
+      - image/jpeg
+      - image/jpg
+      - application/octet-stream
+      - application/json
+# Logger
+logging:
+  file: log/api-proxy.log
+# File System
+spring:
+  mvc:
+    static-path-pattern: /**
+  servlet:
+    multipart:
+      max-request-size:100MB
+      max-file-size:10MB
+
+

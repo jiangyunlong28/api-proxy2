@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "http.pool.conn",
+      "type": "com.hnttg.cibcredit.api.service.http.rest.HttpPoolProperties",
+      "sourceType": "com.hnttg.cibcredit.api.service.http.rest.HttpPoolProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "http.pool.conn.connect-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hnttg.cibcredit.api.service.http.rest.HttpPoolProperties"
+    },
+    {
+      "name": "http.pool.conn.connection-request-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hnttg.cibcredit.api.service.http.rest.HttpPoolProperties"
+    },
+    {
+      "name": "http.pool.conn.default-max-per-route",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hnttg.cibcredit.api.service.http.rest.HttpPoolProperties"
+    },
+    {
+      "name": "http.pool.conn.max-total",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hnttg.cibcredit.api.service.http.rest.HttpPoolProperties"
+    },
+    {
+      "name": "http.pool.conn.socket-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hnttg.cibcredit.api.service.http.rest.HttpPoolProperties"
+    },
+    {
+      "name": "http.pool.conn.validate-after-inactivity",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hnttg.cibcredit.api.service.http.rest.HttpPoolProperties"
+    }
+  ],
+  "hints": []
+}
